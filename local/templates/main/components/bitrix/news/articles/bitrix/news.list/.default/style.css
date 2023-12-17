@@ -1,0 +1,45 @@
+.image-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card .card-img-top {
+    width: 100%;
+}
+
+.mod-card .card-title-link {
+    display: block;
+    min-height: 48px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsi
+}
+
+.card.collection-card.position-relative {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 473px;
+    max-height: 266px;
+    overflow: hidden;
+}
+
+.browse-container {
+    width: 100% !important;
+}
+
+.card.collection-card.position-relative {
+    max-width: none;
+}
+
+.dflex {
+    display: flex;
+}
+
+.collection-card-item:hover .card-title-link {
+    text-decoration: underline;
+}

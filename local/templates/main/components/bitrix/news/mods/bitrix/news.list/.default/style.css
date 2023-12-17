@@ -1,0 +1,40 @@
+
+.image-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card .card-img-top {
+    width: 100%;
+}
+
+.mod-card .card-title-link {
+    display: block;
+    /* min-height: 48px; */
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsi
+}
+
+.hover-info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    display: none;
+    z-index: 999;
+    justify-content: space-between;
+}
+
+.card-buttons > a{
+    width: 100% !important;
+}
+
+.card-buttons > a:first-child {
+    /* margin-bottom: 10px; */
+}

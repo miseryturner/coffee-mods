@@ -1,0 +1,122 @@
+.package-card.p-0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.carousel-item {
+    max-height: 410px;
+    overflow: hidden;
+}
+
+#packageCarousel {
+    max-height: 410px;
+    overflow: hidden;
+}
+
+
+.carousel-item {
+    max-height: 410px;
+    overflow: hidden;
+}
+
+#packageCarousel {
+    max-height: 410px;
+    overflow: hidden;
+}
+
+/*fancybox*/
+#mainCarousel {
+    width: 100%;
+    margin: 0 auto 1rem auto;
+  
+    --carousel-button-color: #170724;
+    --carousel-button-bg: #fff;
+    --carousel-button-shadow: 0 2px 1px -1px rgb(0 0 0 / 20%),
+      0 1px 1px 0 rgb(0 0 0 / 14%), 0 1px 3px 0 rgb(0 0 0 / 12%);
+  
+    --carousel-button-svg-width: 20px;
+    --carousel-button-svg-height: 20px;
+    --carousel-button-svg-stroke-width: 2.5;
+}
+  
+#mainCarousel .carousel__slide {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 400px;
+    padding: 0;
+}
+  
+#mainCarousel .carousel__button.is-prev {
+    left: -1.5rem;
+}
+  
+#mainCarousel .carousel__button.is-next {
+    right: -1.5rem;
+}
+  
+#mainCarousel .carousel__button:focus {
+    outline: none;
+    box-shadow: 0 0 0 4px #A78BFA;
+}
+
+#mainCarousel .carousel__track > div > img {
+    max-width: 100%;
+    width: auto;
+    height: 100%;
+}
+  
+#thumbCarousel .carousel__slide {
+    opacity: 0.5;
+    padding: 0;
+    margin: 0.25rem;
+    width: 96px;
+    height: 64px;
+}
+  
+#thumbCarousel .carousel__slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+  
+#thumbCarousel .carousel__slide.is-nav-selected {
+    opacity: 1;
+}
+/*fancybox end*/
+
+.col-lg-8 {
+    width: 100% !important;
+}
+
+.col-10 {
+    width: 100% !important;
+}
+
+.download_wrapper {
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.btn-bridge {
+    display: block !important;
+    font-size: 30px !important;
+    position: relative;
+    z-index: 999;
+}
+
+.photo_articles {
+    width: 100%;
+}
